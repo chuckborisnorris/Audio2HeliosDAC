@@ -8,6 +8,7 @@ g++ -pthread -o audio2laser main.cpp HeliosDac.cpp -lglfw -lGLU -lGL -lXrandr -l
 ...if there are no errors then you can use this to run the app (after starting the ROM):
 
 chmod u+s ./audio2laser (this will allow the program to modify root access for connecting to audio)
+
 sudo -E ./audio2laser   (this will run the app, the -E flag is necessary
 
 (if there are errors then it is likely you are missing one of the libraries in the compile line, these can be searched easily enough online)
