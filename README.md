@@ -13,3 +13,9 @@ sudo -E ./audio2laser   (this will run the app, the -E flag is necessary
 
 
 (if there are errors then it is likely you are missing one of the libraries in the compile line, these can be searched easily enough online)
+
+# TODO List
+
+* Colour change
+* Set sample rate, buffer size etc in app
+* Set laser x/y offset and scale
